@@ -1,0 +1,16 @@
+######################## scrip en desarrollo###################3
+#### concentracion de una muestra
+#### C1V1=C2V2
+### v2 desconocido
+concentracion<-function(c1,c2,v1){
+  v2<-((c1)*(v1))/c2
+  paste("el volumen necesario es", v2)
+}
+#### molaridad
+#### molalidad
+#### Normalidad
+#si se quiere escribir cada valor quitar # antes de la siguiente oracion
+#c1<-readline(prompt="colocarc1:"); c2<-readline(prompt="colocarc2:"); v1<-readline(prompt="colocarv1:");c1<-as.numeric(c1);c2<-as.numeric(c2);v1<-as.numeric(v1);v2<-((c1)*(v1))/c2;print(v2)
+#texto informatico de las funciones
+# para CV=CV: usar ##concentracion(c1,c2,v1)##
+##c1= concentracion 1; c2 = concentracion 2, v1 = volumen de la concentracion 1
